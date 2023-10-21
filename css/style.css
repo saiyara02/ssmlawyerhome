@@ -1,0 +1,318 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+}
+.header .navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #2a386f;
+    margin: 0px 0px 0px 25px;
+}
+
+.header .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:focus{
+    color: #f2612c;
+}
+
+.slider{
+	width: 100%;
+	padding: 100px 0px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.slider .inner-slider{
+	width: 100%;
+	padding: 80px 0px 0px;
+}
+.inner-slider h1{
+	font-size: 62px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.arrow{
+	width: 100%;
+	padding: 250px 0px 0px;
+}
+.tittle{
+	width: 100%;
+	padding: 0px 0px 20px;
+}
+.who{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who .tittle{
+	width: 100%;
+	padding: 0px 0px 20px;
+	margin: 70px 0px 0px;
+
+}
+
+.tittle h2{
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #2a386f;
+	text-transform: uppercase;
+	padding: 15px 0px 0px;
+}
+
+.who p{
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.4em;
+	color: #b0b0b1;
+}
+
+.what{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/n.png") center top no-repeat;
+	background-size: cover;
+}
+
+.what .tittle{
+	text-align: center;
+	padding: 0px 0px 80px;
+}
+
+.what .card{
+	border-radius: 0px;
+	border: none;
+}
+.what .card img{
+	border-radius: 0px;
+}
+
+.what .card .card-img-overlay {
+    text-align: center;
+}
+.what .card .card-img-overlay .card-title{
+    width: 90%;
+    top: 50%;
+    left: 5%;
+    position: absolute;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.what .card .card-img-overlay .arrow-long{
+   position: absolute;
+   bottom: 15%;
+   left: 45%;
+}
+.attorney{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../images/mn.png) center top no-repeat;
+	background-size: cover;
+}
+.attorney .tittle{
+	width: 100%;
+	padding: 100px 0px 0px;
+}
+.attorney .tittle h2{
+	color: #fff;
+
+}
+.attorney p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #b0b0b1;
+	padding: 0px 0px 20px;
+}	
+.attorney .at-btn{
+	text-decoration: none;
+	display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #f2622c;
+}
+.attorney .at-btn:hover, .attorney .at-btn:focus{
+    color: #fff;
+}
+
+.attorney .card{
+	border-radius: 0px;
+	border: none;
+	margin: 15px 0px;
+
+}
+.attorney .card img{
+	border-radius: 0px;
+}
+
+.attorney .card .card-img-overlay {
+    text-align: left;
+}
+.attorney .card .card-img-overlay .card-title{
+    width: 90%;
+    bottom: 10%;
+    left: 10%;
+    position: absolute;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.7em;
+    text-transform: uppercase;
+}
+
+.lang{
+	width: 100%;
+	padding: 80px 0px;
+}
+.lang .tittle{
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.inner-lang{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.inner-lang h3{
+	font-size: 24px;
+	font-weight: 800;
+	line-height: 1.3em;
+	color: #2a386f;
+	padding: 0px 0px 10px;
+	text-transform: uppercase;
+
+}
+.inner-lang p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #b0b0b1;
+
+}
+ 
+.inner-lang .at-btn{
+	text-decoration: none;
+	display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f2622c;
+}
+.inner-lang .at-btn:hover, .inner-lang .at-btn:focus{
+    color: #2a386f;
+}
+
+.contact{
+	width: 100%;
+	padding: 80px 0px;
+	background-color: #28377e; 
+}
+.contact .tittle{
+	text-align: center;
+}
+.contact .tittle h2{
+	color: #fff;
+}
+
+.contact-form .form-control{
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 0px;
+	padding: 0px 0px 20px;
+	border-bottom: 1px solid #fff;
+	background: #28377e;
+
+}
+
+.contact-form .form-control:focus{
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #f2622c;
+	box-shadow: none;
+	background: #28377e;
+}
+
+.contact-form input::placeholder{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.contact-form .btn-primary{
+	font-size: 16px;
+	font-weight: 600;
+	border: 1px solid #f2622c;
+	background: #f2622c;
+	padding: 10px 60px;
+	text-transform: uppercase;
+	transition: 1s;
+	margin: 40px 0px 0px;
+}
+.contact-form .btn-primary:hover, .contact-form .btn-primary:focus{
+	background: #fff;
+	color: #28377e;
+}
+
+.footer{
+	width: 100%;
+	padding: 20px 0px 20px 0px;
+	background: #0c1234;
+}
+.footer p{
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #616ca8;
+	padding: 0px 40px 0px 0px;
+
+}
+
+.footer .social-icons{
+	width: 100%; 
+	padding: 0px 0px 0px 250px;
+}
+.footer .social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+
+.social-icons li a{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0px;
+    margin: 0px 10px;
+    transition: 1s;
+    color: #616ca8;
+}
+
+.social-icons li a:hover, .social-icons li a:focus{
+	cursor: pointer;
+	color: #f2622c;
+}
